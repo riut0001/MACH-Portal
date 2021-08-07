@@ -1,0 +1,9 @@
+# Connect using a password
+# Connect
+open scp://ha18:!_xray26@stage.mach.uni-karlsruhe.de:22
+# Change remote directory
+# cd .public_html/includes/
+synchronize remote T:\Homepage /home/ws/ha18/.public_html/inhalt/extern
+call chmod -R 755 /home/ws/ha18/.public_html/inhalt
+close
+# exit
